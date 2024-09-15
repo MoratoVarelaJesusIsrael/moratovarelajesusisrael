@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa Orgánica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ropa Orgánica</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Estilo Sostenible</h2>
+            <p>Explora nuestra línea de ropa ecológica hecha con materiales 100% orgánicos.</p>
+            <a href="#products" class="btn">Descubre Más</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En Ropa Orgánica nos enfocamos en brindar ropa de alta calidad, fabricada de manera ética y sostenible.</p>
+            <img src="imagenes/ropa_organica.jpg" alt="Ropa Orgánica" class="ropa_organica">
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="imagenes/camiseta_organica.jpg" alt="Camiseta Orgánica">
+                    <h3>Camiseta Orgánica</h3>
+                    <p>Camiseta hecha con algodón 100% orgánico. Suave y cómoda.</p>
+                </div>
+                <div class="product">
+                    <img src="imagenes/pantalon_organico.jpg" alt="Pantalón Orgánico">
+                    <h3>Pantalón Orgánico</h3>
+                    <p>Pantalón de lino orgánico, ideal para cualquier ocasión.</p>
+                </div>
+                <div class="product">
+                    <img src="imagenes/vestido_organico.jpg" alt="Vestido Orgánico" class="vestido">
+                    <h3>Vestido Orgánico</h3>
+                    <p>Vestido fresco y elegante, hecho con fibras naturales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? Escríbenos.</p>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ropa Orgánica. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
